@@ -162,6 +162,7 @@ svg {
 }
 
 body {
+  background: #14141f;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Montserrat", sans-serif;
