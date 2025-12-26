@@ -1,3 +1,15 @@
 :root {
   --white-color: #fff;
+  --wit-color: #ebebeb;
+  --gr-color: #d8d8d851;
+  --black-color: #000;
+  --border-color: #1356ca;
+  --btn-bg-color: #ffffff20;
+  --moon-icon-color: #7e4cd1;
+  --sun-text-color: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  --bg-conus: linear-gradient(
+    26deg,
+    rgba(75, 80, 230, 1) 0%,
+    rgba(226, 80, 229, 1) 100%
+  );
 }
