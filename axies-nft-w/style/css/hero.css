@@ -1,0 +1,234 @@
+#hero {
+  margin-top: 80px;
+  background: linear-gradient(
+    80deg,
+    rgb(39, 42, 114) 0%,
+    rgb(139, 48, 140) 100%
+  );
+  width: 100%;
+  padding-block: 90px;
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      .h1 {
+        font-size: 56px;
+        line-height: 68px;
+        font-weight: 700;
+        color: var(--white-color);
+        h2 {
+          color: rgba(56, 59, 156, 1);
+          background: var(--white-color);
+          background-clip: text;
+          -webkit-text-stroke: 3px transparent;
+        }
+      }
+      p {
+        width: 600px;
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--wit-color);
+        text-transform: capitalize;
+      }
+      .btn {
+        display: flex;
+        gap: 12px;
+        button {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          padding: 10px 25px;
+          border-radius: 40px;
+          border: none;
+          background: none;
+          color: var(--white-color);
+          cursor: pointer;
+          border: solid 2px var(--white-color);
+          transition: 0.7s;
+          width: 150px;
+          height: 50px;
+        }
+        button:hover {
+          background: var(--white-color);
+          border: var(--white-color);
+          color: var(--border-color);
+        }
+      }
+    }
+    .hero-img {
+      position: relative;
+      animation: alternate 4s ease-in-out infinite hero-img-anim;
+      .hero-img-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+@keyframes hero-img-anim {
+  0% {
+    transform: translateY(15px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+
+.bg-conus-1 {
+  position: absolute;
+  top: 30vh;
+  left: 60%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--bg-conus);
+  animation: alternate 5s ease-in-out infinite bg-conus-1;
+}
+
+@keyframes bg-conus-1 {
+  0% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+.bg-conus-2 {
+  position: absolute;
+  top: 35vh;
+  left: 80%;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: var(--bg-conus);
+  animation: alternate 6s ease-in-out infinite bg-conus-2;
+}
+
+@keyframes bg-conus-2 {
+  0% {
+    transform: translate(10px, -10px);
+  }
+  50% {
+    transform: translate(-10px, 10px);
+  }
+  100% {
+    transform: translate(10px, -10px);
+  }
+}
+
+.bg-conus-3 {
+  position: absolute;
+  top: 70vh;
+  left: 55%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg-conus);
+  animation: alternate 6s ease-in-out infinite bg-conus-3;
+}
+
+@keyframes bg-conus-3 {
+  0% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(15px);
+  }
+}
+
+.bg-conus-4 {
+  position: absolute;
+  top: 74vh;
+  left: 75%;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: var(--bg-conus);
+  animation: alternate 6s ease-in-out infinite bg-conus-4;
+}
+
+@keyframes bg-conus-4 {
+  0% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(15px);
+  }
+}
+
+.bg-conus-5 {
+  position: absolute;
+  top: 80vh;
+  left: 35%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--bg-conus);
+  animation: alternate 4s ease-in-out infinite bg-conus-5;
+}
+
+@keyframes bg-conus-5 {
+  0% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(15px);
+  }
+}
+
+.bg-crug-1 {
+  position: absolute;
+  top: 17vh;
+  left: 80%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--bg-conus);
+  animation: alternate 5s ease-in-out infinite bg-crug-1;
+}
+
+.bg-crug-2 {
+  position: absolute;
+  top: 40vh;
+  left: 44%;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: var(--bg-conus);
+  animation: alternate 5s ease-in-out infinite bg-crug-1;
+}
+
+@keyframes bg-crug-1 {
+  0% {
+    transform: translateX(-15px);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+  100% {
+    transform: translateX(-15px);
+  }
+}
