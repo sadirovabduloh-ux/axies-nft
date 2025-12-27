@@ -399,7 +399,7 @@
       font-size: 16px;
       font-weight: 500;
       color:#fff;
-      transition: color 0.5s ease-in-out;
+      transition: background-color 0.5s ease-in-out;
     }
     .qwqw:hover{
       border: none;

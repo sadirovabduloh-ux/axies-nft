@@ -296,6 +296,14 @@
       font-size: 20x;
       font-weight: 800px;
     }
+    a{
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+    a:hover{
+      color: #0f00b4;
+      /* border-bottom: 1px solid #5142fc; */
+    }
   }
   .inputs {
     display: flex;
@@ -315,17 +323,18 @@
     }
     .btn {
       position: absolute;
-      right: 0;
+      right: 11px;
       button {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 50px;
-        height: 46px;
+        height: 45.9px;
         border: none;
         border-radius: 7px;
         background: #5142fc;
         color: white;
+        margin-top: 0.5px;
       }
     }
   }
