@@ -3,4 +3,7 @@
 @import url('./vars.css');
 
 /* стиль сайета! */
+@import url('./css/header.css');
+@import url('./css/hero.css');
+@import url('./css/s-1.css');
 @import url('./css/kodir.css');
