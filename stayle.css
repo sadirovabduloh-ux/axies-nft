@@ -1,0 +1,352 @@
+.b-3-b3 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 34px;
+  h1 {
+    font-size: 37px;
+  }
+  a:hover {
+    background: linear-gradient(
+      to right,
+      #5453b4,
+      #6452da,
+      #8253da,
+      #9253dc,
+      #b155dc,
+      #cf56da,
+      #da54d8
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  a {
+    height: 30px;
+    color: var(--white-color);
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(
+        to right,
+        #5453b4,
+        #6452da,
+        #8253da,
+        #9253dc,
+        #b155dc,
+        #cf56da,
+        #da54d8
+      )
+      1;
+  }
+}
+.card {
+  margin-top: 20px;
+  display: flex;
+  color: white;
+  gap: 10px;
+  h1 {
+    font-weight: 29px;
+  }
+  button {
+    align-items: flex-start;
+    width: 70px;
+    height: 30px;
+    border-radius: 9px;
+    color: white;
+    background-color: black;
+  }
+  .img {
+    border-radius: 15px;
+    width: 74px;
+    height: 64px;
+  }
+}
+.imges {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  .yop {
+    margin-top: 25px;
+    width: 190px;
+    height: 240px;
+    border-radius: 16px;
+  }
+}
+.top-8-img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  .s-lo {
+    width: 97px;
+    height: 85px;
+    border-radius: 16px;
+    margin-left: 10px;
+  }
+}
+.uyu {
+  display: flex;
+}
+.o-p-p {
+  width: 200px;
+  height: 150px;
+  border-radius: 16px;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+.ttttt {
+  width: 450px;
+  height: 376px;
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #343444;
+}
+.ioii {
+  display: flex;
+  gap: 20px;
+}
+.hr4 {
+  color: white;
+  margin-top: 44px;
+  font-weight: 34px;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+.l-p-o {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  color: white;
+  gap: 10px;
+  h1 {
+    font-size: 29px;
+    transition: 1s;
+    &:hover {
+      color: #5142fc;
+    }
+  }
+  p {
+    font-size: 12px;
+    font-weight: 90px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #5142fc;
+    color: white;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 34px;
+    transition: 1s;
+    ion-icon {
+      margin-top: 7px;
+    }
+  }
+}
+.l-p-o-0 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  color: white;
+  gap: 10px;
+  h1 {
+    font-size: 29px;
+    transition: 1s;
+    &:hover {
+      color: #5142fc;
+    }
+  }
+  p {
+    font-size: 12px;
+    font-weight: 90px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #47a432;
+    color: white;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 34px;
+    transition: 1s;
+    ion-icon {
+      margin-top: 7px;
+    }
+  }
+}
+.ui {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  color: white;
+  gap: 10px;
+  h1 {
+    font-size: 29px;
+    transition: 1s;
+    &:hover {
+      color: #5142fc;
+    }
+  }
+  p {
+    font-size: 12px;
+    font-weight: 90px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #9835fb;
+    color: white;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 34px;
+    transition: 1s;
+    ion-icon {
+      margin-top: 7px;
+    }
+  }
+}
+.u-i {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  color: white;
+  gap: 10px;
+  h1 {
+    font-size: 29px;
+    transition: 1s;
+    &:hover {
+      color: #5142fc;
+    }
+  }
+  p {
+    font-size: 12px;
+    font-weight: 90px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #df4949;
+    color: white;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 34px;
+    transition: 1s;
+    ion-icon {
+      margin-top: 7px;
+    }
+  }
+}
+.u-i:hover,
+.ui:hover,
+.l-p-o-0:hover,
+.l-p-o:hover {
+  button {
+    transform: rotateY(360deg);
+  }
+}
+.ii-0-0 {
+  display: flex;
+  margin-top: 54px;
+  align-items: center;
+  justify-content: space-around;
+}
+#footer {
+  background-color: #0d0d11;
+  margin-top: 45px;
+}
+.f-1-l {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  font-weight: 400px;
+  gap: 10px;
+}
+.footer {
+  display: flex;
+  color: white;
+  gap: 134px;
+  margin-top: 45px;
+  padding: 56px 0;
+  margin-left: 20px;
+}
+.foot-4-t4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 40px;
+  h1 {
+    font-size: 20x;
+    font-weight: 8000px;
+  }
+}
+.inputs {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  input {
+    background: none;
+    border: none;
+    border-radius: 7px;
+    width: 250px;
+    height: 46px;
+    padding: 7px;
+    border: solid 2px #cccccc3f;
+    color: white;
+    /* background-color: transparent; */
+  }
+  .btn {
+    position: absolute;
+    right: 0;
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 46px;
+      border: none;
+      border-radius: 7px;
+      background: #5142fc;
+      color: white;
+    }
+  }
+}
+.inclouds {
+  display: flex;
+  gap: 10px;
+  button {
+    margin-top: 16px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #343444;
+    transition: 0.5s;
+    ion-icon {
+      font-size: 22px;
+      padding: 9px 0;
+      align-items: center;
+      color: white;
+    }
+    &:hover {
+      background-color: #5142fc;
+    }
+  }
+}
