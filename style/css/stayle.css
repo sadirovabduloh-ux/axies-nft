@@ -277,16 +277,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 30px;
     font-weight: 400px;
     gap: 10px;
   }
   .footer {
     display: flex;
     color: white;
-    gap: 134px;
+    gap: 100px;
     margin-top: 45px;
-    padding: 56px 0;
     margin-left: 20px;
   }
   .foot-4-t4 {
@@ -296,7 +294,7 @@
     line-height: 40px;
     h1 {
       font-size: 20x;
-      font-weight: 8000px;
+      font-weight: 800px;
     }
   }
   .inputs {
