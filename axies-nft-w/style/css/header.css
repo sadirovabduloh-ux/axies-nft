@@ -5,7 +5,11 @@
   z-index: 100;
   width: 100%;
   padding-block: 5px;
-  background: #14141f;
+  background: linear-gradient(
+    80deg,
+    rgb(39, 42, 114) 0%,
+    rgb(139, 48, 140) 100%
+  );
   .bg-gradient3 {
     position: absolute;
     top: 1px;
@@ -68,7 +72,7 @@
         background: none;
         color: var(--white-color);
         cursor: pointer;
-        border: solid 2px var(--border-color);
+        border: solid 2px var(--white-color);
         transition: 0.7s;
         width: 150px;
         height: 50px;
@@ -81,7 +85,7 @@
     }
     .btns {
       a {
-        background: var(--btn-bg-color);
+        background: linear-gradient(25deg,rgba(51, 56, 216, 0.78) 23%, rgba(251, 0, 255, 1) 79%);
         color: var(--white-color);
         border: none;
         cursor: pointer;
@@ -94,9 +98,9 @@
         ion-icon {
           font-size: 25px;
         }
-        .moon-icon {
-          color: var(--moon-icon-color);
-        }
+      }
+      .moon-icon {
+        background: var(--black-color);
       }
     }
   }
