@@ -1,7 +1,6 @@
 (function () {
   const PHONE_MAX_WIDTH = 767;
   const TABLET_MAX_WIDTH = 1180;
-  const TABLET_MIN_LANDSCAPE_WIDTH = 900;
 
   function ensureGate() {
     let gate = document.querySelector(".device-gate");
@@ -51,11 +50,8 @@
 
   function updateGate() {
     const width = window.innerWidth;
-    const height = window.innerHeight;
     const isPhone = width <= PHONE_MAX_WIDTH;
     const isTablet = width > PHONE_MAX_WIDTH && width <= TABLET_MAX_WIDTH;
-    const isLandscape = width >= height;
-    const tabletBlocked = isTablet && (!isLandscape || width < TABLET_MIN_LANDSCAPE_WIDTH);
 
     if (isPhone) {
       document.body.classList.add("device-blocked");
@@ -64,7 +60,7 @@
       return;
     }
 
-    if (tabletBlocked) {
+    if (isTablet) {
       document.body.classList.add("device-blocked");
       document.body.dataset.deviceGate = "tablet";
       setGateContent("tablet");
