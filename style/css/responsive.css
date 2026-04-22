@@ -1,0 +1,477 @@
+body {
+  overflow-x: hidden;
+}
+
+#header {
+  height: auto;
+  min-height: 82px;
+}
+
+#header .header,
+#header .header nav,
+#header .header .inputs,
+#header .header .btns,
+#hero .hero,
+#s-1 .s-1 .s-1-text,
+#s-1 .s-1 .s01-text,
+#s-4 .text,
+#s-4 .max,
+#s-your-1 .b-3-b3,
+#jjjsoon .b-3-b3,
+#s-your-1 .ioii,
+#jjjsoon .ioii,
+#footer .footer,
+#sec1 .sec1 .a,
+#s-2 .s-2 .s2-cards,
+#s-4 .cart-ob {
+  flex-wrap: wrap;
+}
+
+#header .header {
+  gap: 16px;
+  padding-block: 10px;
+}
+
+#header .header nav {
+  flex: 1 1 320px;
+  row-gap: 10px;
+}
+
+#header .header .inputs {
+  flex: 1 1 300px;
+  justify-content: flex-end;
+}
+
+#header .header .inputs .Search,
+#header .header .inputs .Search input,
+#header .header .inputs .Search .searchInput {
+  width: min(100%, 240px);
+}
+
+#header .header .inputs button {
+  width: auto;
+  min-width: 150px;
+}
+
+#hero {
+  margin-top: 140px;
+}
+
+#hero .hero {
+  align-items: center;
+  gap: 48px;
+}
+
+#hero .hero .hero-text,
+#hero .hero .hero-img,
+#sec1 .sec1,
+#s-2 .s-2 .s2-text,
+#footer .footer > * {
+  flex: 1 1 320px;
+}
+
+#hero .hero .hero-text .h1 {
+  font-size: clamp(36px, 5vw, 56px);
+  line-height: 1.12;
+}
+
+#hero .hero .hero-text p {
+  width: 100%;
+  max-width: 600px;
+}
+
+#hero .hero .hero-img {
+  display: flex;
+  justify-content: center;
+}
+
+#hero .hero .hero-img > img,
+#hero .hero .hero-img .hero-img-overlay img {
+  width: min(100%, 520px);
+  height: auto;
+}
+
+#s-1 .s-1 .s-1-text,
+#s-1 .s-1 .s01-text,
+#s-4 .text,
+#s-4 .max,
+#s-your-1 .b-3-b3,
+#jjjsoon .b-3-b3 {
+  gap: 16px;
+}
+
+#s-1 .cards,
+.contacts,
+#s-2 .s-2 .s2-cards {
+  gap: 24px;
+}
+
+#s-1 .cards .card,
+#s-2 .s-2 .s2-cards .card,
+#s-4 .card,
+#s-4 .card-1 {
+  width: min(100%, 330px);
+  min-width: min(100%, 330px);
+  height: auto;
+}
+
+#s-1 .cards .card .with,
+#s-2 .s-2 .s2-cards .card .with,
+#s-4 .card .with,
+#s-4 .card-1 .with {
+  padding-bottom: 24px;
+}
+
+#s-1 .cards .card .with > img,
+#s-1 .cards .card .with .img-s1 > img,
+#s-2 .s-2 .s2-cards .card .with > img,
+#s-2 .s-2 .s2-cards .card .with .img-s1 > img,
+#s-4 .card .with > img,
+#s-4 .card .with .img-s1 > img,
+#s-4 .card-1 .with > img,
+#s-4 .card-1 .with .img-s1 > img {
+  width: 100%;
+  height: auto;
+}
+
+#s-1 .cards .card .with .img-s1 .button1 {
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+}
+
+#s-1 .cards .card:hover .btn {
+  transform: translateY(0);
+}
+
+#s-4 .cart-ob {
+  justify-content: center;
+}
+
+#s-your-1 .ioii,
+#jjjsoon .ioii {
+  justify-content: center;
+}
+
+#s-your-1 .ttttt,
+#jjjsoon .ttttt {
+  width: min(100%, 450px);
+  height: auto;
+  padding: 24px 18px;
+}
+
+#s-your-1 .imges,
+#jjjsoon .imges,
+#s-your-1 .uyu,
+#jjjsoon .uyu {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#s-your-1 .o-p-p,
+#jjjsoon .o-p-p {
+  width: min(100%, 200px);
+  height: auto;
+  margin-left: 0;
+}
+
+#s-your-1 .top-8-img .s-lo,
+#jjjsoon .top-8-img .s-lo {
+  margin-left: 0;
+}
+
+#s-4 .s-4 .qwqw {
+  display: block;
+  margin-inline: auto;
+}
+
+#footer .footer {
+  gap: 40px;
+  margin-left: 0;
+}
+
+#footer .inputs {
+  width: min(100%, 320px);
+}
+
+#footer .inputs input {
+  width: 100%;
+  padding-right: 64px;
+}
+
+@media (max-width: 991px) {
+  #header .header {
+    justify-content: center;
+  }
+
+  #header .header nav,
+  #header .header .inputs,
+  #header .header .btns {
+    justify-content: center;
+  }
+
+  #hero {
+    margin-top: 190px;
+  }
+
+  #hero .hero {
+    justify-content: center;
+    text-align: center;
+  }
+
+  #hero .hero .hero-text {
+    align-items: center;
+  }
+
+  #hero .hero .hero-text .btn {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .bg-conus-1,
+  .bg-conus-2,
+  .bg-conus-3,
+  .bg-conus-4,
+  .bg-conus-5,
+  .bg-crug-1,
+  .bg-crug-2 {
+    opacity: 0.35;
+  }
+
+  #s-4 .text3 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #s-4 .text2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #sec1 .sec1 {
+    margin-top: 170px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-inline: 16px;
+  }
+
+  #header .bg-gradient3 {
+    display: none;
+  }
+
+  #header .header nav {
+    gap: 8px 12px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 6px;
+  }
+
+  #header .header nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  #header .header nav a,
+  #header .header nav select {
+    white-space: nowrap;
+    font-size: 15px;
+  }
+
+  #header .header .inputs {
+    width: 100%;
+  }
+
+  #header .header .inputs .Search,
+  #header .header .inputs .Search input,
+  #header .header .inputs .Search .searchInput,
+  #header .header .inputs button {
+    width: 100%;
+    min-width: 0;
+  }
+
+  #hero {
+    margin-top: 220px;
+  }
+
+  #hero .hero {
+    gap: 28px;
+  }
+
+  #hero .hero .hero-text .h1 {
+    font-size: clamp(28px, 9vw, 42px);
+  }
+
+  #hero .hero .hero-text p,
+  #s-2 .s-2 .s2-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  #s-1 .s-1 .s-1-text h1,
+  #s-1 .s-1 .s01-text h1,
+  #s-2 .s-2 .s2-text h1,
+  #s-4 .text h1,
+  #s-your-1 .b-3-b3 h1,
+  #jjjsoon .b-3-b3 h1,
+  #sec1 .sec1 h1 {
+    font-size: clamp(28px, 8vw, 40px);
+  }
+
+  #s-1 .cards,
+  .contacts,
+  #s-2 .s-2 .s2-cards {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    scroll-snap-type: x proximity;
+    padding-block: 16px;
+  }
+
+  #s-1 .cards .card,
+  .contacts .chel,
+  #s-2 .s-2 .s2-cards .card {
+    scroll-snap-align: start;
+  }
+
+  #s-1 .cards .card .with .cont,
+  #s-2 .s-2 .s2-cards .card .with .cont,
+  #s-4 .card .with .cont,
+  #s-4 .card-1 .with .cont {
+    gap: 14px;
+  }
+
+  #s-1 .cards .card .with .cont,
+  #s-2 .s-2 .s2-cards .card .with .cont,
+  #s-4 .card .with .cont,
+  #s-4 .card-1 .with .cont,
+  #s-2 .s-2 .s2-cards .card .with .btn,
+  #s-4 .card .with .btn,
+  #s-4 .card-1 .with .btn,
+  #footer .footer,
+  #sec1 .sec1 .a {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #s-2 .s-2 .s2-cards .card .with .btn,
+  #s-4 .card .with .btn,
+  #s-4 .card-1 .with .btn {
+    gap: 12px;
+  }
+
+  #s-2 .s-2 .s2-cards .card .with .btn a,
+  #s-4 .card .with .btn a,
+  #s-4 .card-1 .with .btn a {
+    font-size: 15px;
+  }
+
+  #s-4 .max,
+  #s-4 .text3,
+  #s-4 .text2 {
+    justify-content: flex-start;
+  }
+
+  #s-4 .text3 a,
+  #s-4 .text2 a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #s-your-1 .card,
+  #jjjsoon .card {
+    align-items: flex-start;
+  }
+
+  #s-your-1 .ii-0-0,
+  #jjjsoon .ii-0-0 {
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: flex-start;
+  }
+
+  #footer .footer {
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  #header .header {
+    align-items: stretch;
+  }
+
+  #header .header > a,
+  #header .header .btns {
+    align-self: center;
+  }
+
+  #hero {
+    margin-top: 250px;
+  }
+
+  #hero .hero .hero-text .btn {
+    width: 100%;
+  }
+
+  #hero .hero .hero-text .btn button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #s-1 .cards .card,
+  #s-2 .s-2 .s2-cards .card,
+  #s-4 .card,
+  #s-4 .card-1 {
+    min-width: 280px;
+  }
+
+  #s-1 .cards .card .with,
+  #s-2 .s-2 .s2-cards .card .with,
+  #s-4 .card .with,
+  #s-4 .card-1 .with {
+    padding-inline: 16px;
+  }
+
+  #s-1 .cards .card .with .img-s1 .oclock {
+    right: 12px;
+  }
+
+  #s-1 .cards .card .with .t1,
+  #s-2 .s-2 .s2-cards .card .with .t1,
+  #s-4 .card .with .t1,
+  #s-4 .card-1 .with .t1 {
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  #s-your-1 .ttttt,
+  #jjjsoon .ttttt {
+    padding: 18px 14px;
+  }
+
+  #s-your-1 .l-p-o h1,
+  #s-your-1 .l-p-o-0 h1,
+  #s-your-1 .ui h1,
+  #s-your-1 .u-i h1,
+  #jjjsoon .l-p-o h1,
+  #jjjsoon .l-p-o-0 h1,
+  #jjjsoon .ui h1,
+  #jjjsoon .u-i h1 {
+    font-size: 22px;
+  }
+
+  #footer .inputs,
+  #footer .inputs input {
+    width: 100%;
+  }
+
+  #sec1 .sec1 .a {
+    gap: 8px;
+    font-size: 16px;
+  }
+}
