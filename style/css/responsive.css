@@ -251,6 +251,9 @@
   #s-1 .cards {
     gap: 20px;
     padding-block: 18px;
+    padding-right: 16px;
+    scroll-padding-right: 16px;
+    box-sizing: border-box;
   }
 
   #s-1 .cards .card {
@@ -281,6 +284,9 @@
 
   .contacts {
     gap: 20px;
+    padding-right: 16px;
+    scroll-padding-right: 16px;
+    box-sizing: border-box;
   }
 
   #s-2 .s-2 .s2-cards .card,
@@ -317,6 +323,12 @@
   #s-4 .card .with .cont,
   #s-4 .card-1 .with .cont {
     gap: 12px;
+  }
+
+  #s-2 .s-2 .s2-cards {
+    padding-right: 16px;
+    scroll-padding-right: 16px;
+    box-sizing: border-box;
   }
 
   #s-4 .text2 a,
@@ -406,6 +418,13 @@
   #s-1 .cards .card {
     min-width: calc(100vw - 32px);
     width: calc(100vw - 32px);
+  }
+
+  #s-1 .cards,
+  .contacts,
+  #s-2 .s-2 .s2-cards {
+    padding-right: 12px;
+    scroll-padding-right: 12px;
   }
 
   #s-1 .cards .card .with,
