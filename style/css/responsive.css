@@ -68,6 +68,98 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+  #s-1 .cards,
+  #s-2 .s2-cards,
+  #s-4 .cart-ob {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+    align-items: start;
+    overflow: visible;
+    padding-right: 0;
+    scroll-padding-right: 0;
+  }
+
+  #s-1 .cards .card,
+  #s-2 .s2-cards .card,
+  #s-4 .cart-ob .card,
+  #s-4 .cart-ob .card-1 {
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    height: auto;
+  }
+
+  #s-1 .cards .card .with,
+  #s-2 .s2-cards .card .with,
+  #s-4 .cart-ob .card .with,
+  #s-4 .cart-ob .card-1 .with {
+    padding: 16px 16px 20px;
+  }
+
+  #s-1 .cards .card .with > img,
+  #s-1 .cards .card .with .img-s1 > img,
+  #s-2 .s2-cards .card .with > img,
+  #s-2 .s2-cards .card .with .img-s1 > img,
+  #s-4 .cart-ob .card .with > img,
+  #s-4 .cart-ob .card .with .img-s1 > img,
+  #s-4 .cart-ob .card-1 .with > img,
+  #s-4 .cart-ob .card-1 .with .img-s1 > img {
+    width: 100%;
+    height: auto;
+  }
+
+  #s-1 .cards .card .with .img-s1 .button1 {
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    width: calc(100% - 32px);
+    justify-content: center;
+    padding-inline: 12px;
+  }
+
+  #s-1 .cards .card .with .img-s1 .oclock {
+    right: 12px;
+    bottom: 10px;
+  }
+
+  #s-1 .cards .card .with .t1,
+  #s-2 .s2-cards .card .with .t1,
+  #s-4 .cart-ob .card .with .t1,
+  #s-4 .cart-ob .card-1 .with .t1,
+  #s-1 .cards .card .with .cont,
+  #s-2 .s2-cards .card .with .cont,
+  #s-4 .cart-ob .card .with .cont,
+  #s-4 .cart-ob .card-1 .with .cont,
+  #s-2 .s2-cards .card .with .btn,
+  #s-4 .cart-ob .card .with .btn,
+  #s-4 .cart-ob .card-1 .with .btn {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #s-2 .s2-cards .card .with .btn,
+  #s-4 .cart-ob .card .with .btn,
+  #s-4 .cart-ob .card-1 .with .btn {
+    justify-content: space-between;
+  }
+
+  #s-1 .cards .card .with .cont .qq,
+  #s-2 .s2-cards .card .with .cont .qq,
+  #s-4 .cart-ob .card .with .cont .qq,
+  #s-4 .cart-ob .card-1 .with .cont .qq {
+    align-items: flex-start;
+  }
+
+  #s-1 .cards .card .with .t1 a,
+  #s-2 .s2-cards .card .with .t1 a,
+  #s-4 .cart-ob .card .with .t1 a,
+  #s-4 .cart-ob .card-1 .with .t1 a {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 992px) {
   #header .header {
     flex-wrap: wrap;
